@@ -2,6 +2,8 @@
 
 Aplicación web de caracterización de **Quelec y la semilla del futuro**, revisión **MQ04**. Interfaz en español, modo oscuro y disposición horizontal o vertical.
 
+[Abrir el estudio en línea](https://felipecotero.github.io/quelec-estudio-maquillaje/)
+
 ## Uso
 
 Escoge un personaje, una capa, un color y una herramienta; pinta sobre la piel del modelo. Gira con V o Espacio y acerca con la rueda o los botones. Guarda el proyecto `.quelec` antes de cerrar.
