@@ -1,0 +1,267 @@
+{
+  "license": "CC0-1.0",
+  "date": "2026-11-02",
+  "assets": [
+    {
+      "id": "afro01",
+      "vertices": 2276,
+      "triangles": 2192,
+      "bounds": [
+        [
+          -0.966829,
+          -0.599498,
+          -1.430243
+        ],
+        [
+          0.966829,
+          1.480826,
+          0.938806
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "8344fffef15120a05a89219f31184ca2958537223fa885c885137ad1e97edcb8"
+    },
+    {
+      "id": "bob01",
+      "vertices": 5961,
+      "triangles": 8474,
+      "bounds": [
+        [
+          -1.154531,
+          -0.982569,
+          -1.460496
+        ],
+        [
+          0.986453,
+          1.425856,
+          1.166463
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "d7fb73806f47ee37ba3c37bcfadff40a91ba99635d08c3e02d94b4acbf97c231"
+    },
+    {
+      "id": "bob02",
+      "vertices": 1759,
+      "triangles": 2248,
+      "bounds": [
+        [
+          -0.943667,
+          -1.061526,
+          -1.290785
+        ],
+        [
+          0.961586,
+          1.292079,
+          1.04129
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "30d44038836d786364eb4134a9259cf93ca0c707f883861b0135ebfb149caa08"
+    },
+    {
+      "id": "braid01",
+      "vertices": 4771,
+      "triangles": 5518,
+      "bounds": [
+        [
+          -0.966486,
+          -4.779431,
+          -1.877571
+        ],
+        [
+          0.945004,
+          1.318487,
+          0.977944
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        216,
+        255
+      ],
+      "sourceSHA256": "ad0b449c80244452bc8d437f5d59c25ec2ac17b2eb35e1ae2d9531fc00b73b0a"
+    },
+    {
+      "id": "long01",
+      "vertices": 3314,
+      "triangles": 4108,
+      "bounds": [
+        [
+          -1.366594,
+          -6.079788,
+          -1.849754
+        ],
+        [
+          1.366594,
+          1.306007,
+          0.833204
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "7f1d6dadbdf9e96435251955d6657e77ea5433c9bc7c85a5c5f5e4eae0cb9a8c"
+    },
+    {
+      "id": "ponytail01",
+      "vertices": 4049,
+      "triangles": 5352,
+      "bounds": [
+        [
+          -0.762056,
+          -2.424675,
+          -1.97534
+        ],
+        [
+          0.74871,
+          1.279481,
+          0.774814
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "d9f5fe96fbedbc8006220d87aad0e4a33d15286eb6b21f5929661cdc490ebf5a"
+    },
+    {
+      "id": "short01",
+      "vertices": 3177,
+      "triangles": 3678,
+      "bounds": [
+        [
+          -0.760338,
+          -0.634451,
+          -1.198389
+        ],
+        [
+          0.751674,
+          1.362233,
+          0.811246
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "d998d8416f9b5d5591f1d756f4d292288d000a6951bc0f4d2e8e72727bbc44fa"
+    },
+    {
+      "id": "short02",
+      "vertices": 2061,
+      "triangles": 3344,
+      "bounds": [
+        [
+          -0.87886,
+          -0.613668,
+          -1.111142
+        ],
+        [
+          0.825001,
+          1.34909,
+          1.006001
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "48f979114adfa712165a69cc55c45a70831af1fb3cba8e2a89120f0c87407b64"
+    },
+    {
+      "id": "short03",
+      "vertices": 1071,
+      "triangles": 1922,
+      "bounds": [
+        [
+          -0.929399,
+          -0.792285,
+          -1.185561
+        ],
+        [
+          0.778257,
+          1.264749,
+          1.037563
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "4a9fc385718f2c46fb328ab99d33e3a946cecdb717987c8b324cf2466b59bd9c"
+    },
+    {
+      "id": "short04",
+      "vertices": 991,
+      "triangles": 1050,
+      "bounds": [
+        [
+          -0.754972,
+          -0.746282,
+          -1.161171
+        ],
+        [
+          0.762014,
+          1.236493,
+          0.750696
+        ]
+      ],
+      "textureDimensions": [
+        1024,
+        1024
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "sourceSHA256": "676964a133ee35ffcea1195382bf75542da7a298931e4001bc7b0d7b707225de"
+    }
+  ],
+  "note": "Authored mesh and alpha texture assets. Exact MakeHuman mhclo barycentric fitting applied to C03 body; runtime smooth displacement follows actual head. No primitive hair geometry."
+}

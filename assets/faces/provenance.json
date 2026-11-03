@@ -1,0 +1,332 @@
+{
+  "method": "Continuous MakeHuman CC0 head and neck, semantic actor-photo fitting MQ03, with individually reviewed MQ04 silhouette and feature corrections for Quelec, Chismosa and Regañona.",
+  "allOriginalsUnmodified": true,
+  "models": {
+    "faceLandmarker": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "canonicalFaceOBJ": "8bac80443397e113f41a8b565ea72c59390bc031d9defab289dba7bc0c54e618"
+  },
+  "sources": [
+    "https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker/python",
+    "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/modules/face_geometry/data/canonical_face_model.obj"
+  ],
+  "subjects": [
+    {
+      "series": "01",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 5,
+      "bounds": {
+        "min": [
+          -1.2312396,
+          -1.6503192,
+          -1.0856666
+        ],
+        "max": [
+          1.2312077,
+          1.1999999,
+          1.1060918
+        ]
+      },
+      "geometryViews": [
+        "left",
+        "three-left",
+        "front",
+        "three-right",
+        "right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/01/head.json?rev=MQ04",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ04"
+    },
+    {
+      "series": "02",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 4,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.65,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.0861
+        ]
+      },
+      "geometryViews": [
+        "left",
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/02/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    },
+    {
+      "series": "03",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 3,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.65,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.0789
+        ]
+      },
+      "geometryViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/03/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    },
+    {
+      "series": "04",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 3,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.65,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.0586
+        ]
+      },
+      "geometryViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/04/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    },
+    {
+      "series": "05",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 3,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.65,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.0626
+        ]
+      },
+      "geometryViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/05/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    },
+    {
+      "series": "06",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 5,
+      "bounds": {
+        "min": [
+          -1.2312397,
+          -1.6500571,
+          -1.0856669
+        ],
+        "max": [
+          1.2312019,
+          1.1999999,
+          1.1645981
+        ]
+      },
+      "geometryViews": [
+        "left",
+        "three-left",
+        "front",
+        "three-right",
+        "right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/06/head.json?rev=MQ04",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ04"
+    },
+    {
+      "series": "07",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 4,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.6501,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.0606
+        ]
+      },
+      "geometryViews": [
+        "left",
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/07/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    },
+    {
+      "series": "08",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 4,
+      "bounds": {
+        "min": [
+          -1.2312409,
+          -1.6501613,
+          -1.0856662
+        ],
+        "max": [
+          1.2312616,
+          1.2,
+          1.0606831
+        ]
+      },
+      "geometryViews": [
+        "three-left",
+        "front",
+        "three-right",
+        "right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/08/head.json?rev=MQ04",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ04"
+    },
+    {
+      "series": "09",
+      "landmarks": 468,
+      "views": 5,
+      "uniqueOriginals": 5,
+      "detectedViews": 3,
+      "bounds": {
+        "min": [
+          -1.2312,
+          -1.65,
+          -1.0857
+        ],
+        "max": [
+          1.2312,
+          1.2,
+          1.105
+        ]
+      },
+      "geometryViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "textureViews": [
+        "three-left",
+        "front",
+        "three-right"
+      ],
+      "mesh": "assets/faces/09/head.json",
+      "vertices": 4636,
+      "triangles": 8812,
+      "revision": "MQ03"
+    }
+  ],
+  "geometryMethod": "MQ03 semantic surface fitting retained for nine actors. MQ04 uses manually observed bilateral visible profiles for actors01/06, frontal contour for01, photographic eye apertures/mouth width for06 and upper forehead skin curve for08. Original skin UV and topology retained.",
+  "textureMethod": "Photographic actor atlas mapped into original MakeHuman UV, feathered transition to inferred skin color outside observed face.",
+  "revision": "MQ04",
+  "noOverlayMask": true,
+  "noNeckPrimitive": true,
+  "uvLayout": "makehuman-original",
+  "metricScan": false,
+  "priorMethod": "MQ01 landmark surface + separate backing rejected; legacy files private only",
+  "refinedSubjectsMQ04": [
+    "01",
+    "06",
+    "08"
+  ],
+  "verificationLocation": "Technical reports and comparisons retained in the private local project qa directory; no metric scan or approved likeness is claimed."
+}

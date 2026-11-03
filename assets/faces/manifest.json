@@ -1,0 +1,1817 @@
+{
+  "01": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/01/left.jpg",
+        "sourceName": "01a F LAT IZ - Quelec.jpg",
+        "sourceSha256": "f1cc9e00d32a76f48f35038f006228e8c90a5be3d880c174ef268914711c5ebf",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 415,
+        "height": 534
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/01/three-left.jpg",
+        "sourceName": "01c F 3:4 IZ - Quelec.jpg",
+        "sourceSha256": "b1a2331f0e871c7fc8b4bccea4a571bf395ea8343f3af549d67150856ba6bfa6",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 454,
+        "height": 571
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/01/front.jpg",
+        "sourceName": "01 F FRONTAL - Quelec.jpeg",
+        "sourceSha256": "e74f4ebc74477fe7e55d4e05c654c707fea539671e235c33173481bb2e36a64a",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 413,
+        "height": 513
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/01/three-right.jpg",
+        "sourceName": "01d F 3:4 DER - Quelec.jpg",
+        "sourceSha256": "81d828da4bea076776b5b2888b045ea18c1b60a3b8b3d0b59dee20d4a95e153b",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 490,
+        "height": 584
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/01/right.jpg",
+        "sourceName": "01b F LAT DER - Quelec.jpg",
+        "sourceSha256": "d8437ad473bd651dbcaa7c3b2f3f020fa51b3bf8569c0bbfd5e438e655d3d332",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 396,
+        "height": 518
+      }
+    ],
+    "mesh": "assets/faces/01/head.json?rev=MQ04",
+    "texture": "assets/faces/01/head-texture.jpg?rev=MQ04",
+    "thumbnail": "assets/faces/01/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ04 Quelec: bilateral manually observed visible profile silhouette proportions relative to nasion/menton; smooth sagittal correction with frontal perspective preserved, and measured lateral jaw width refinement. Uncalibrated photographic approximation.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312396,
+        -1.6503192,
+        -1.0856666
+      ],
+      "max": [
+        1.2312077,
+        1.1999999,
+        1.1060918
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "left",
+      "three-left",
+      "front",
+      "three-right",
+      "right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 2,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.04994658208832048,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/01/eye-fit.json?rev=MQ04",
+    "eyeTexture": "assets/faces/01/eyes.png?rev=MQ04",
+    "revision": "MQ04",
+    "headSHA256": "cd630184081c540205ceee4a9b5ea3f3fd53e049828bec3d9b5393659d316f09",
+    "candidateOnly": false,
+    "profileCorrection": "Own cropped-profile lower-midline observations; no actor09 ratio transferred",
+    "profileCalibration": {
+      "revision": "MQ04",
+      "method": "Frontal cheek/jaw contour and visible nose, forehead, lip and chin profile observations in both photographs.",
+      "bilateralVisibleProfileObservations": true,
+      "cameraCalibrated": false,
+      "metricScan": false
+    },
+    "atlasTreatment": {
+      "photoMappedVertices": 3671,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        204.67,
+        165.89,
+        146.3
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 95873,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    },
+    "refinementMQ04": "Frontal cheek/jaw contour and visible nose, forehead, lip and chin profile observations in both photographs.",
+    "geometrySafetyMQ04": {
+      "normalFlips": 0,
+      "nearCollapsedTriangles": 0,
+      "minAreaRatio": 0.35387908191040596,
+      "minNormalDot": 0.28719111015601306,
+      "maxAreaRatio": 2.930373368617396,
+      "volumetricMinimumDepthDerivative": 0.8657264413509265
+    },
+    "profileCalibrationMQ03": {
+      "method": "Actor-specific lower-midline profile landmark proportions relative to nasion; only flagged depth outliers corrected; front XY fixed; no actor09 ratios transferred",
+      "usedProfileViews": [
+        "left",
+        "right"
+      ],
+      "observations": [
+        {
+          "mpIndex": 2,
+          "originalZ": 0.890625,
+          "profileTargetZ": 0.9863327611325902,
+          "deltaZ": 0.09570776113259016,
+          "normalizedDepthFromNasion": 0.0754467156597767,
+          "betweenViewHalfRange": 0.0074160298199630395
+        },
+        {
+          "mpIndex": 0,
+          "originalZ": 0.895705,
+          "profileTargetZ": 1.0194210187376627,
+          "deltaZ": 0.12371601873766269,
+          "normalizedDepthFromNasion": 0.09542754754689772,
+          "betweenViewHalfRange": 0.004892861151932888
+        },
+        {
+          "mpIndex": 13,
+          "originalZ": 0.844519,
+          "profileTargetZ": 0.975153801991993,
+          "deltaZ": 0.13063480199199295,
+          "normalizedDepthFromNasion": 0.06869613646859482,
+          "betweenViewHalfRange": 0.00777731125699984
+        },
+        {
+          "mpIndex": 14,
+          "originalZ": 0.838099,
+          "profileTargetZ": 0.9538905702437062,
+          "deltaZ": 0.11579157024370612,
+          "normalizedDepthFromNasion": 0.05585602067856657,
+          "betweenViewHalfRange": 0.011228927077921114
+        },
+        {
+          "mpIndex": 17,
+          "originalZ": 0.839194,
+          "profileTargetZ": 0.9637419502906195,
+          "deltaZ": 0.12454795029061949,
+          "normalizedDepthFromNasion": 0.0618049216730794,
+          "betweenViewHalfRange": 0.01628783465304517
+        },
+        {
+          "mpIndex": 199,
+          "originalZ": 0.756237,
+          "profileTargetZ": 0.8994717557610981,
+          "deltaZ": 0.143234755761098,
+          "normalizedDepthFromNasion": 0.022994417730131694,
+          "betweenViewHalfRange": 0.034628194651562784
+        },
+        {
+          "mpIndex": 152,
+          "originalZ": 0.630021,
+          "profileTargetZ": 0.8295664237808703,
+          "deltaZ": 0.19954542378087026,
+          "normalizedDepthFromNasion": -0.01921894699222802,
+          "betweenViewHalfRange": 0.03636762654549164
+        }
+      ],
+      "uncertainty": "Detected profile landmarks are inferred, not measured silhouette points. Uncalibrated yaw/pitch and view differences remain; paired images and rendered poses require visual comparison."
+    }
+  },
+  "02": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/02/left.jpg",
+        "sourceName": "02b Fa LAT IZ - El hermano.jpg",
+        "sourceSha256": "ee93a6c149cec5b012c1fd3712a8999b7d49dff4cec1924f577f8e1947ce841e",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 401,
+        "height": 525
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/02/three-left.jpg",
+        "sourceName": "02c Fa 3:4 IZ - El hermano.jpg",
+        "sourceSha256": "c3be00300817d59fa9bc4c64bdc97d90362674448563e92af60a4605d9835188",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 458,
+        "height": 585
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/02/front.jpg",
+        "sourceName": "02 Fa FRONTAL - El hermano.jpeg",
+        "sourceSha256": "d01e0a52602d3844bd14f0ac3307ac907682bbcd5579b9cae4b64e7996874c74",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 407,
+        "height": 506
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/02/three-right.jpg",
+        "sourceName": "02d Fa 3:4 DER - El hermano.jpg",
+        "sourceSha256": "8c1b3d716e13d32e23e8203bb7c5da68291bc8123813832bfbe2fcf0b0b7f0e0",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 455,
+        "height": 553
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/02/right.jpg",
+        "sourceName": "02a Fa LAT DER - El hermano.jpg",
+        "sourceSha256": "393b5ac8de4c9458aa1488bc1fe43d05a130277e0a6490da5989585ad88b47c2",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/02/head.json",
+    "texture": "assets/faces/02/head-texture.jpg",
+    "thumbnail": "assets/faces/02/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.65,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.0861
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "left",
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 4,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.02659572289917848,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/02/eye-fit.json",
+    "eyeTexture": "assets/faces/02/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "20fa55afa1044584eb2f35d40bed7dd6eb86f00fdd79f43734a223d034aa9d94",
+    "candidateOnly": false,
+    "profileCorrection": "Own cropped-profile lower-midline observations; no actor09 ratio transferred",
+    "profileCalibration": {
+      "method": "Actor-specific lower-midline profile landmark proportions relative to nasion; only flagged depth outliers corrected; front XY fixed; no actor09 ratios transferred",
+      "usedProfileViews": [
+        "left",
+        "right"
+      ],
+      "observations": [
+        {
+          "mpIndex": 2,
+          "originalZ": 0.952365,
+          "profileTargetZ": 0.9983821280751058,
+          "deltaZ": 0.04601712807510583,
+          "normalizedDepthFromNasion": 0.07702725125308324,
+          "betweenViewHalfRange": 0.021749042022642
+        },
+        {
+          "mpIndex": 0,
+          "originalZ": 0.957047,
+          "profileTargetZ": 1.0544856922183852,
+          "deltaZ": 0.09743869221838519,
+          "normalizedDepthFromNasion": 0.11090621510772047,
+          "betweenViewHalfRange": 0.01799080137482143
+        },
+        {
+          "mpIndex": 13,
+          "originalZ": 0.898556,
+          "profileTargetZ": 1.0125472407264366,
+          "deltaZ": 0.11399124072643663,
+          "normalizedDepthFromNasion": 0.08558106324060186,
+          "betweenViewHalfRange": 0.01948693526828594
+        },
+        {
+          "mpIndex": 14,
+          "originalZ": 0.893833,
+          "profileTargetZ": 0.9769419088501884,
+          "deltaZ": 0.0831089088501884,
+          "normalizedDepthFromNasion": 0.06408025896750509,
+          "betweenViewHalfRange": 0.007174172519292549
+        },
+        {
+          "mpIndex": 17,
+          "originalZ": 0.910244,
+          "profileTargetZ": 0.9906164467180346,
+          "deltaZ": 0.08037244671803456,
+          "normalizedDepthFromNasion": 0.07233783014374072,
+          "betweenViewHalfRange": 0.006892654252607294
+        },
+        {
+          "mpIndex": 199,
+          "originalZ": 0.845963,
+          "profileTargetZ": 0.9299296796724195,
+          "deltaZ": 0.08396667967241944,
+          "normalizedDepthFromNasion": 0.035691231686243684,
+          "betweenViewHalfRange": 0.015138711187505744
+        },
+        {
+          "mpIndex": 152,
+          "originalZ": 0.733468,
+          "profileTargetZ": 0.8731006795121152,
+          "deltaZ": 0.13963267951211522,
+          "normalizedDepthFromNasion": 0.0013742026039343744,
+          "betweenViewHalfRange": 0.02002825580614781
+        }
+      ],
+      "uncertainty": "Detected profile landmarks are inferred, not measured silhouette points. Uncalibrated yaw/pitch and view differences remain; paired images and rendered poses require visual comparison."
+    },
+    "atlasTreatment": {
+      "photoMappedVertices": 3653,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        194.28,
+        151.75,
+        134.66
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 0,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  },
+  "03": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/03/left.jpg",
+        "sourceName": "03b Fb LAT IZ - Hermano Funambulista.jpg",
+        "sourceSha256": "c9c017a45a14c6e8f0eef16b6c7822f53729b3e78cffb841ab50081e7d83b02a",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/03/three-left.jpg",
+        "sourceName": "03c Fb 3:4 IZ - Hermano Funambulista.jpg",
+        "sourceSha256": "6e7adc8fb8c2419b9d6d1ad8cedde19f1260d9d96fc84df7a766a220752e7a79",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 455,
+        "height": 559
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/03/front.jpg",
+        "sourceName": "03 Fb FRONTAL - Hermano Funambulista.jpeg",
+        "sourceSha256": "6d38ed77cabae746d02a16a5f32f6f750b55663e58a9b414113154e7df1b8ccb",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 386,
+        "height": 456
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/03/three-right.jpg",
+        "sourceName": "03d Fb 3:4 DER - Hermano Funambulista.jpg",
+        "sourceSha256": "68f9c357bef75cce4ba0aa1d01325853c063096808cb9569ddca541f850a95a5",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 417,
+        "height": 503
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/03/right.jpg",
+        "sourceName": "03a Fb LAT DER - Hermano Funambulista.jpg",
+        "sourceSha256": "b0aef189794de6c3f8aa4bccb4070705c74aca751f293caf8c3a87a0962691c4",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/03/head.json",
+    "texture": "assets/faces/03/head-texture.jpg",
+    "thumbnail": "assets/faces/03/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.65,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.0789
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "left",
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 2,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.1835430657726861,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/03/eye-fit.json",
+    "eyeTexture": "assets/faces/03/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "c7a6ad202ee55d8a993843db67773b29e3ab27237e608813877e9d589ee52e07",
+    "candidateOnly": false,
+    "profileCalibration": null,
+    "atlasTreatment": {
+      "photoMappedVertices": 3825,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        205.88,
+        159.49,
+        131.4
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 0,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  },
+  "04": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/04/left.jpg",
+        "sourceName": "04b F LAT IZ - La abuela.jpg",
+        "sourceSha256": "49e4ed9d7d9288bda2cec365f0179503a45568806bf82ee3edb509d636c24b11",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/04/three-left.jpg",
+        "sourceName": "04c F 3:4 IZ - La abuela.jpg",
+        "sourceSha256": "e57e269b2f0f76267aa3cf16f8acb868b4b743ebc116deb1381582c5f587598d",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 517,
+        "height": 706
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/04/front.jpg",
+        "sourceName": "04 F FRONTAL - La abuela.jpeg",
+        "sourceSha256": "eeedc941fbf47e959829602fcb4e6a5feb19095d2e0a45f975b07310093c151c",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 437,
+        "height": 598
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/04/three-right.jpg",
+        "sourceName": "04d F 3:4 DER - La abuela.jpg",
+        "sourceSha256": "e292bcfce782fad1ecb383af0150e772ad7c2c67b7448708d68d55fe0d1d0fc5",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 535,
+        "height": 708
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/04/right.jpg",
+        "sourceName": "04a F LAT DER - La abuela.jpg",
+        "sourceSha256": "d1ffb755cfa91abc46e7ecf575f31da842e621c58f5db3a5ac3b6f38243de918",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/04/head.json",
+    "texture": "assets/faces/04/head-texture.jpg",
+    "thumbnail": "assets/faces/04/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.65,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.0586
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "left",
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 2,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.14117741133232545,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/04/eye-fit.json",
+    "eyeTexture": "assets/faces/04/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "e9a6975345bd12c0636d156ae7ca8cfbbea4e74e35a33037b0503b678e2ec3f1",
+    "candidateOnly": false,
+    "profileCalibration": null,
+    "atlasTreatment": {
+      "photoMappedVertices": 3353,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        149.6,
+        120.01,
+        109.62
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 0,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  },
+  "05": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/05/left.jpg",
+        "sourceName": "05a G LAT IZ - Capitan de los Gruñones.jpg",
+        "sourceSha256": "170bb22d797448c0d28fdc520fe2ef8e65f14563b863ace2e907e8a47fc05846",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/05/three-left.jpg",
+        "sourceName": "05c G 3:4 IZ - Capitan de los Gruñones.jpg",
+        "sourceSha256": "d9b656d84e0f63de21d711e214cf043ca066d8ce27bbfa6abd64af940eed5c64",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 479,
+        "height": 611
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/05/front.jpg",
+        "sourceName": "05 G FRONTAL - Capitan de los Gruñones.jpeg",
+        "sourceSha256": "ca4565601f31df71d563872f3230c894f4a8f2f78170bd355471af9147bde9f0",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 420,
+        "height": 534
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/05/three-right.jpg",
+        "sourceName": "05d G 3:4 DER - Capitan de los Gruñones.jpg",
+        "sourceSha256": "699e4f914173bac8f1acca1529f326d63b543bcef9a2661048a39281dff07e34",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 508,
+        "height": 644
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/05/right.jpg",
+        "sourceName": "05b G LAT DER - Capitan de los Gruñones.jpg",
+        "sourceSha256": "9ae931515c5e8bd4c7b06868fac02987751ca67a2a51f5625764f5ca3372caa4",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/05/head.json",
+    "texture": "assets/faces/05/head-texture.jpg",
+    "thumbnail": "assets/faces/05/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.65,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.0626
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "left",
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 2,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.19915189983729148,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/05/eye-fit.json",
+    "eyeTexture": "assets/faces/05/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "2696f50344ed52646c7026efdf56af252aa3f560455333ffe07deabef72fa1a6",
+    "candidateOnly": false,
+    "profileCalibration": null,
+    "atlasTreatment": {
+      "photoMappedVertices": 3588,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        206.96,
+        163.06,
+        143.05
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 0,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  },
+  "06": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/06/left.jpg",
+        "sourceName": "06a G LAT IZ - Gruñona Chismosa.jpg",
+        "sourceSha256": "fd8e946d241eac94dd7d7969ff5f9e7522bb82381926aa6813b0b5afe84b51a1",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 416,
+        "height": 524
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/06/three-left.jpg",
+        "sourceName": "06c G 3:4 IZ - Gruñona Chismosa.jpg",
+        "sourceSha256": "be735bc159a6213bd7c0650510209d8dfc1df91f1672df0d95c9396d2973643a",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 493,
+        "height": 603
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/06/front.jpg",
+        "sourceName": "06 G FRONTAL - Gruñona Chismosa.jpeg",
+        "sourceSha256": "462b2bb4ba86ec6c3edfe815e24a009f6f053c71b9dc54e8707c992360507e5e",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 465,
+        "height": 538
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/06/three-right.jpg",
+        "sourceName": "06d G 3:4 DER - Gruñona Chismosa.jpg",
+        "sourceSha256": "a721c136517231a3a3406f3dafe928f37ee8f783ab2ee22b1bf49fad0e00cdae",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 507,
+        "height": 611
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/06/right.jpg",
+        "sourceName": "06a G LAT DER - Gruñona Chismosa.jpg",
+        "sourceSha256": "680cafa040746370d62d62ef0e0ee360dae24314885f4f6bb612f3341e50d510",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 389,
+        "height": 511
+      }
+    ],
+    "mesh": "assets/faces/06/head.json?rev=MQ04",
+    "texture": "assets/faces/06/head-texture.jpg?rev=MQ04",
+    "thumbnail": "assets/faces/06/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ04 Chismosa: bilateral manually observed visible profile depths relative to nasion/menton; nose tip and lip separation; frontal perspective preserved, local photographic mouth span and eye opening proportions. Continuous MakeHuman head; approximation, not a scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312397,
+        -1.6500571,
+        -1.0856669
+      ],
+      "max": [
+        1.2312019,
+        1.1999999,
+        1.1645981
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "left",
+      "three-left",
+      "front",
+      "three-right",
+      "right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 1,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.08500157751678931,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/06/eye-fit.json?rev=MQ04",
+    "eyeTexture": "assets/faces/06/eyes.png?rev=MQ04",
+    "revision": "MQ04",
+    "headSHA256": "4eac8a5750509477a0cef937edb66441d264bfe392aacb0465b0f30b2a636582",
+    "candidateOnly": false,
+    "profileCorrection": "Own cropped-profile lower-midline observations; no actor09 ratio transferred",
+    "profileCalibration": {
+      "revision": "MQ04",
+      "method": "Visible bilateral nose/lip/chin profile, photographic mouth width and eyelid aperture height; refitted photographic eyes.",
+      "bilateralVisibleProfileObservations": true,
+      "cameraCalibrated": false,
+      "metricScan": false
+    },
+    "atlasTreatment": {
+      "photoMappedVertices": 3946,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        193.91,
+        142.58,
+        141.4
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "photoBoundaryDistance": "exact hull segments with 24-source-pixel forehead occlusion confidence fade",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 158153,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    },
+    "refinementMQ04": "Visible bilateral nose/lip/chin profile, photographic mouth width and eyelid aperture height; refitted photographic eyes.",
+    "geometrySafetyMQ04": {
+      "normalFlips": 0,
+      "nearCollapsedTriangles": 0,
+      "minAreaRatio": 0.7885514202705267,
+      "minNormalDot": 0.8262421114969528,
+      "maxAreaRatio": 1.3085137607297195
+    },
+    "profileCalibrationMQ03": {
+      "method": "Actor-specific lower-midline profile landmark proportions relative to nasion; only flagged depth outliers corrected; front XY fixed; no actor09 ratios transferred",
+      "usedProfileViews": [
+        "left"
+      ],
+      "observations": [
+        {
+          "mpIndex": 2,
+          "originalZ": 0.903283,
+          "profileTargetZ": 1.0751799865699425,
+          "deltaZ": 0.17189698656994257,
+          "normalizedDepthFromNasion": 0.0767632769142165,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 0,
+          "originalZ": 0.879646,
+          "profileTargetZ": 1.1214075195736022,
+          "deltaZ": 0.24176151957360215,
+          "normalizedDepthFromNasion": 0.10467845384879364,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 13,
+          "originalZ": 0.803903,
+          "profileTargetZ": 1.0751790751078778,
+          "deltaZ": 0.27127607510787777,
+          "normalizedDepthFromNasion": 0.0767627265144189,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 14,
+          "originalZ": 0.784652,
+          "profileTargetZ": 1.0463022641790425,
+          "deltaZ": 0.26165026417904247,
+          "normalizedDepthFromNasion": 0.059325038755460476,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 17,
+          "originalZ": 0.774912,
+          "profileTargetZ": 1.062028174914455,
+          "deltaZ": 0.28711617491445485,
+          "normalizedDepthFromNasion": 0.06882136166331816,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 199,
+          "originalZ": 0.63107,
+          "profileTargetZ": 1.006712258349152,
+          "deltaZ": 0.3756422583491519,
+          "normalizedDepthFromNasion": 0.03541803040407726,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 152,
+          "originalZ": 0.468157,
+          "profileTargetZ": 0.9191042173936913,
+          "deltaZ": 0.4509472173936913,
+          "normalizedDepthFromNasion": -0.01748537596999317,
+          "betweenViewHalfRange": 0.0
+        }
+      ],
+      "uncertainty": "Detected profile landmarks are inferred, not measured silhouette points. Uncalibrated yaw/pitch and view differences remain; paired images and rendered poses require visual comparison."
+    }
+  },
+  "07": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/07/left.jpg",
+        "sourceName": "07a G LAT IZ - Gruñon del tiempo.jpg",
+        "sourceSha256": "fcfb3e10560ef20f60c07947ba6d0a05d60f9079f87eba81c1d28d05f80c0481",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 558,
+        "height": 694
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/07/three-left.jpg",
+        "sourceName": "07d G 3:4 IZ - Gruñon del tiempo.jpg",
+        "sourceSha256": "8385b743a29f784fc082096f8fed61a97de2e940ad0f0f46f3de568dc553ba8c",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 552,
+        "height": 685
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/07/front.jpg",
+        "sourceName": "07 G FRONTAL - Gruñon del tiempo.jpeg",
+        "sourceSha256": "a67f679f962b8d2de3041d0652398126c2d25fb23e40b21ca33b27e8618dcd5e",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 475,
+        "height": 606
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/07/three-right.jpg",
+        "sourceName": "07d G 3:4 DER - Gruñon del tiempo.jpg",
+        "sourceSha256": "c9391c2259c955e28c656c1389a11ba9e64049bb76e1b64d9ffd4a6ebca17196",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 580,
+        "height": 709
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/07/right.jpg",
+        "sourceName": "07a G LAT DER - Gruñon del tiempo.jpg",
+        "sourceSha256": "3adedcebec6e8a5ad1ed60a8d817db0d923d8b3050709a8255a8ae2d851c47b7",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/07/head.json",
+    "texture": "assets/faces/07/head-texture.jpg",
+    "thumbnail": "assets/faces/07/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.6501,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.0606
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "left",
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 1,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.17329138974868885,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/07/eye-fit.json",
+    "eyeTexture": "assets/faces/07/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "1bdfefe68cbf87dcb79d5ed12786b7fca9e3edcfeb573a66090fb46b79544a0b",
+    "candidateOnly": false,
+    "profileCorrection": "Own cropped-profile lower-midline observations; no actor09 ratio transferred",
+    "profileCalibration": {
+      "method": "Actor-specific lower-midline profile landmark proportions relative to nasion; only flagged depth outliers corrected; front XY fixed; no actor09 ratios transferred",
+      "usedProfileViews": [
+        "left"
+      ],
+      "observations": [
+        {
+          "mpIndex": 2,
+          "originalZ": 0.832988,
+          "profileTargetZ": 0.9333003650600108,
+          "deltaZ": 0.10031236506001084,
+          "normalizedDepthFromNasion": 0.05252739435990989,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 0,
+          "originalZ": 0.790754,
+          "profileTargetZ": 0.9192849071532693,
+          "deltaZ": 0.1285309071532693,
+          "normalizedDepthFromNasion": 0.04406395359496932,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 13,
+          "originalZ": 0.733454,
+          "profileTargetZ": 0.8776654997193762,
+          "deltaZ": 0.1442114997193762,
+          "normalizedDepthFromNasion": 0.01893146118319821,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 14,
+          "originalZ": 0.731463,
+          "profileTargetZ": 0.8670974260465266,
+          "deltaZ": 0.13563442604652665,
+          "normalizedDepthFromNasion": 0.012549774182685113,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 17,
+          "originalZ": 0.747963,
+          "profileTargetZ": 0.8850205994406882,
+          "deltaZ": 0.13705759944068818,
+          "normalizedDepthFromNasion": 0.02337294652215471,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 199,
+          "originalZ": 0.684916,
+          "profileTargetZ": 0.8629575377696216,
+          "deltaZ": 0.17804153776962162,
+          "normalizedDepthFromNasion": 0.010049841648322158,
+          "betweenViewHalfRange": 0.0
+        },
+        {
+          "mpIndex": 152,
+          "originalZ": 0.564596,
+          "profileTargetZ": 0.8020250132095056,
+          "deltaZ": 0.2374290132095056,
+          "normalizedDepthFromNasion": -0.026745161105371017,
+          "betweenViewHalfRange": 0.0
+        }
+      ],
+      "uncertainty": "Detected profile landmarks are inferred, not measured silhouette points. Uncalibrated yaw/pitch and view differences remain; paired images and rendered poses require visual comparison."
+    },
+    "atlasTreatment": {
+      "photoMappedVertices": 3516,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        200.9,
+        159.13,
+        138.28
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 0,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  },
+  "08": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/08/left.jpg",
+        "sourceName": "08b G LAT IZ - Gruñona regañona.jpg",
+        "sourceSha256": "9fe6e06e082c09e43901cefa522d88a2696feada8395893c7ff82a0597f70345",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/08/three-left.jpg",
+        "sourceName": "08c G 3:4 IZ - Gruñona regañona.jpg",
+        "sourceSha256": "96840192f99c6321cdd65d339b6c3df25f6d4228386a489ed95164b34de6c164",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 502,
+        "height": 663
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/08/front.jpg",
+        "sourceName": "08 G FRONTAL - Gruñona regañona.jpeg",
+        "sourceSha256": "01a684f16a5dac56c839b9e7bae8cc3fb5bb85ed687d9103544111fbc2244e2f",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 459,
+        "height": 641
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/08/three-right.jpg",
+        "sourceName": "08d G 3:4 DER - Gruñona regañona.jpg",
+        "sourceSha256": "3c36b4b53d0351421042856a5b8b755aed732ade0d1e758d821b53ca422313dc",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 535,
+        "height": 696
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/08/right.jpg",
+        "sourceName": "08a G LAT DER - Gruñona regañona.jpg",
+        "sourceSha256": "5fdc3286ccd3a0af2aa4e81e02ff70aa07c90b5fb5c70770a2d07afa12d04978",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 448,
+        "height": 573
+      }
+    ],
+    "mesh": "assets/faces/08/head.json?rev=MQ04",
+    "texture": "assets/faces/08/head-texture.jpg?rev=MQ04",
+    "thumbnail": "assets/faces/08/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03 private candidate: photo proportions constrain semantic exterior barycentric landmarks and exact eye/mouth aperture curves; rbf regularization. Not a scan. MQ04: upper forehead recedes continuously from brow towards crown, from both visible actor 08 skin profiles; hidden scalp remains inferred.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312409,
+        -1.6501613,
+        -1.0856662
+      ],
+      "max": [
+        1.2312616,
+        1.2,
+        1.0606831
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "three-left",
+      "front",
+      "three-right",
+      "right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "left"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 3,
+      "volumetricJacobianCheck": {
+        "samples": 1249,
+        "minimumDeterminant": 0.1608071375467922,
+        "nonPositiveSamples": 0,
+        "note": "Finite-difference sample of volumetric orientation at material controls and distributed anatomical vertices; not a complete proof of global nonintersection."
+      }
+    },
+    "eyeFit": "assets/faces/08/eye-fit.json?rev=MQ04",
+    "eyeTexture": "assets/faces/08/eyes.png?rev=MQ04",
+    "revision": "MQ04",
+    "headSHA256": "ea506938f3271eaecc78d10172e410a394a7a420e21ac811d5cde89d364ec18d",
+    "candidateOnly": false,
+    "profileCalibration": null,
+    "atlasTreatment": {
+      "photoMappedVertices": 3292,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        186.38,
+        150.58,
+        136.16
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "photoBoundaryDistance": "exact hull segments with 24-source-pixel forehead occlusion confidence fade",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 10252,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    },
+    "refinementMQ04": "Progressive upper-forehead recession from visible skin in both profile photographs; no hair-outline skull fitting.",
+    "geometrySafetyMQ04": {
+      "normalFlips": 0,
+      "nearCollapsedTriangles": 0,
+      "minAreaRatio": 0.5657709632244176,
+      "minNormalDot": 0.8643129918575816,
+      "maxAreaRatio": 1.2908500595411705
+    }
+  },
+  "09": {
+    "views": [
+      {
+        "id": "left",
+        "label": "Perfil izquierdo",
+        "url": "assets/faces/09/left.jpg",
+        "sourceName": "09a V LAT IZ - Auxiliar viajera.jpg",
+        "sourceSha256": "9a5e22951fe858afde865bff7e4a5b2dafa161b3fcc51cd6757481e52c762463",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      },
+      {
+        "id": "three-left",
+        "label": "3/4 izquierdo",
+        "url": "assets/faces/09/three-left.jpg",
+        "sourceName": "09d V 3:4 IZ - Auxiliar viajera.jpg",
+        "sourceSha256": "ce8ef91633f7ad0ae7a9c1573a2e50c3c9b940a42ce4c6f11e262b0ba5c26583",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 404,
+        "height": 483
+      },
+      {
+        "id": "front",
+        "label": "Frontal",
+        "url": "assets/faces/09/front.jpg",
+        "sourceName": "09 V FRONTAL - Auxiliar viajera.jpeg",
+        "sourceSha256": "bc7a2e9e5307f099f7b353b5b03c2d8dde763da77e60a2876861c7773e0aa055",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 367,
+        "height": 438
+      },
+      {
+        "id": "three-right",
+        "label": "3/4 derecho",
+        "url": "assets/faces/09/three-right.jpg",
+        "sourceName": "09c V 3:4 DER - Auxiliar viajera.jpg",
+        "sourceSha256": "5d6550cc14f30a90f9f6e22339d8916eca725c1541f88089be1821464f0fcb93",
+        "landmarksDetected": true,
+        "usedForGeometry": true,
+        "width": 443,
+        "height": 524
+      },
+      {
+        "id": "right",
+        "label": "Perfil derecho",
+        "url": "assets/faces/09/right.jpg",
+        "sourceName": "09b V LAT DER - Auxiliar viajera.jpg",
+        "sourceSha256": "87f9ac177f10061b765b71a6b2b48250bee9c356851842a9f4340793923d4d62",
+        "landmarksDetected": false,
+        "usedForGeometry": false,
+        "width": 824,
+        "height": 1008
+      }
+    ],
+    "mesh": "assets/faces/09/head.json",
+    "texture": "assets/faces/09/head-texture.jpg",
+    "thumbnail": "assets/faces/09/thumb.jpg",
+    "meshKind": "head",
+    "method": "MQ03: exterior semantic barycentric correspondences, exact anatomical eye/mouth aperture curves and actor-specific photo proportions drive a smooth volumetric RBF deformation of one continuous MakeHuman head/neck; native UV photographic atlas. Approximation, not a metric scan.",
+    "confidence": "Photographed proportions fitted; photographic and depth uncertainty remain. Artistic/user likeness review required.",
+    "bounds": {
+      "min": [
+        -1.2312,
+        -1.65,
+        -1.0857
+      ],
+      "max": [
+        1.2312,
+        1.2,
+        1.105
+      ]
+    },
+    "frontalLandmarks": 468,
+    "triangles": 8812,
+    "textureUVSize": 2048,
+    "uvCoverage": 0.6495,
+    "geometryViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "textureViews": [
+      "three-left",
+      "front",
+      "three-right"
+    ],
+    "skippedDetectionViews": [
+      "left",
+      "right"
+    ],
+    "textureMethod": "Existing multiview actor phototexture projected into original nonoverlapping MakeHuman UV, inferred skin tone for unseen regions, feathered photographic boundary. No generated facial image.",
+    "textureCalibratedAlbedo": false,
+    "uvLayout": "makehuman-original",
+    "vertices": 4636,
+    "approximation": "Actor-specific photographic proportions and fitted anatomical eye openings; unseen regions inferred; not a metric scan.",
+    "singleAnatomicalSkinSurface": true,
+    "hasOverlayMask": false,
+    "hasNeckPrimitive": false,
+    "geometrySafety": {
+      "nearCollapsedTriangles": 0,
+      "normalRotationOver90DegCount": 2,
+      "volumetricJacobianCheck": {
+        "samples": 1251,
+        "minimumDeterminant": 0.12946161606414572,
+        "nonPositiveSamples": 0,
+        "alarFaces405And4808Determinants": [
+          0.13501706701593044,
+          0.12946161606414572
+        ],
+        "note": "Two triangle normals rotate beyond90deg relative to base, but local volumetric orientation stays positive at their centers. This sampled test is not a complete global self-intersection proof."
+      }
+    },
+    "eyeFit": "assets/faces/09/eye-fit.json",
+    "eyeTexture": "assets/faces/09/eyes.png",
+    "revision": "MQ03",
+    "headSHA256": "034f5232f86a2a751f053e14a13cd853c2c750511f2ed469d5f9392dc1ea88be",
+    "candidateOnly": false,
+    "profileCalibration": {
+      "method": "Bilateral profile silhouette proportions relative to nasion; menton and pogonion kept distinct; front XY fixed; smooth lower-face depth correction fading laterally",
+      "observations": [
+        {
+          "mpIndex": 2,
+          "observedFeature": "subnasal2Approx",
+          "originalZ": 1.010949,
+          "profileTargetZ": 1.013831092,
+          "deltaZ": 0.0028820919999998917,
+          "normalizedDepthFromNasion": 0.0590695
+        },
+        {
+          "mpIndex": 0,
+          "observedFeature": "lip0Approx",
+          "originalZ": 1.007587,
+          "profileTargetZ": 1.044534988,
+          "deltaZ": 0.0369479880000001,
+          "normalizedDepthFromNasion": 0.0776105
+        },
+        {
+          "mpIndex": 13,
+          "observedFeature": "lip13Approx",
+          "originalZ": 0.953114,
+          "profileTargetZ": 1.022934124,
+          "deltaZ": 0.06982012400000004,
+          "normalizedDepthFromNasion": 0.0645665
+        },
+        {
+          "mpIndex": 14,
+          "observedFeature": "lip14Approx",
+          "originalZ": 0.954208,
+          "profileTargetZ": 1.019809252,
+          "deltaZ": 0.065601252,
+          "normalizedDepthFromNasion": 0.0626795
+        },
+        {
+          "mpIndex": 17,
+          "observedFeature": "lip17Approx",
+          "originalZ": 0.992808,
+          "profileTargetZ": 1.03217212,
+          "deltaZ": 0.03936412,
+          "normalizedDepthFromNasion": 0.070145
+        },
+        {
+          "mpIndex": 199,
+          "observedFeature": "pogonion",
+          "originalZ": 0.961075,
+          "profileTargetZ": 1.053772984,
+          "deltaZ": 0.09269798400000007,
+          "normalizedDepthFromNasion": 0.083189
+        },
+        {
+          "mpIndex": 152,
+          "observedFeature": "menton152Approx",
+          "originalZ": 0.849225,
+          "profileTargetZ": 0.952964812,
+          "deltaZ": 0.10373981200000004,
+          "normalizedDepthFromNasion": 0.0223145
+        }
+      ],
+      "uncertainty": "Manual silhouette observations with 2–5 pixel feature uncertainty and uncalibrated photographs; photographic approximation, not metric scan."
+    },
+    "atlasTreatment": {
+      "photoMappedVertices": 3779,
+      "photoWeightMax": 1.0,
+      "atlasCoverage": 0.22554707527160645,
+      "skinMedian": [
+        188.55,
+        149.15,
+        128.6
+      ],
+      "feather": "24 px, restricted independently to each actual MakeHuman UV island",
+      "uvIslandCount": 5,
+      "excludedPhotographicEyePixels": 10256,
+      "eyePigmentSampling": [
+        {
+          "sourcePixelBounds": [
+            284,
+            361,
+            430,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        },
+        {
+          "sourcePixelBounds": [
+            592,
+            361,
+            738,
+            411
+          ],
+          "replacedPixels": 5128,
+          "pigmentSource": "median of original adjacent skin 7–18 source pixels below the same eye; horizontal smoothing only"
+        }
+      ],
+      "eyeTreatment": "MQ03: photographic eye openings excluded from skin only; photo-measured anatomical eyeballs supply iris and sclera, with photograph pixels outside the ocular contour retained except separately reported hair occlusion.",
+      "foreheadOcclusion": {
+        "excludedDarkHairSourcePixels": 10363,
+        "eyebrowsProtectedBelowCanonicalV": 0.765,
+        "method": "Only dark occluding pixels above brows replaced with median of visible adjacent original forehead skin; no generated texture or new facial detail",
+        "unobservedForehead": "Skin under photographed hair remains inferred, not photographically reconstructed."
+      }
+    }
+  }
+}
